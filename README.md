@@ -34,4 +34,4 @@ API de la app de administración contable.
 
 ---
 
-## Creado en Node.js y MySql, por Daniel F. Palza.
+##### Creado en Node.js y MySql, por Daniel F. Palza.
