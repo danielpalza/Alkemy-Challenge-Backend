@@ -22,7 +22,8 @@ connection.connect(function (err) {
   let createUsuario = `create table if not exists usuario (
                             id_usuario int primary key auto_increment not null ,
                             email varchar(255) not null,
-                            password varchar(255) not null
+                            password varchar(255) not null,
+							UNIQUE KEY unique_email(email) 
                         )`;
 
   let createOperacion = `create table if not exists operacion (
