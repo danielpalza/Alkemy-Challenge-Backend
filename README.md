@@ -3,7 +3,7 @@ API de la app de administración contable.
 
 ## UML
 
-![UML](https://github.com/danielpalza/Alkemy-Challenge-Backend/blob/master/UML.png)
+![UML](https://github.com/danielpalza/Alkemy-Challenge-Backend/blob/master/UML.jpg)
 
 
 ## Para iniciar  
