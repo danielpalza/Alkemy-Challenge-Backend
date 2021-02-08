@@ -2,8 +2,7 @@ const jwt = require("jsonwebtoken");
 
 const isAuth = (req, res, next) => {
   try {
-    // Se recibira el token por los headers, si existe, se continuara, sino, dara un
-    // mensaje de error
+    // auth token through token header, otherwise, it throw a message error
     const { token } = req.headers;
     if (token) {
       const data = jwt.verify(token, process.env.JWT_SECRET);

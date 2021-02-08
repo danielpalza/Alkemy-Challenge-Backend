@@ -31,7 +31,7 @@ controller.getOperaciones = (req, res) => {
       const { token } = req.headers;
 
       const decode = jwt.decode(token);
-      console.log("decode:", decode);
+
       conn.query(
         `SELECT * FROM operacion WHERE id_usuario=${decode.id} ORDER BY id_operacion DESC LIMIT 10 `,
         (err, rows) => {
@@ -114,6 +114,5 @@ controller.balance = (req, res) => {
     res.status(413).send({ status: "Error", message: e.message });
   }
 };
-
 
 module.exports = controller;

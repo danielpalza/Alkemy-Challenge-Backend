@@ -16,7 +16,7 @@ connection = mysql.createConnection(dbOptions);
 
 connection.connect(function (err) {
   if (err) {
-    return console.error("error: " + err.message);
+    return console.error("Error: " + err.message);
   }
 
   let createUsuario = `create table if not exists usuario (
