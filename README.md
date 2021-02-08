@@ -27,13 +27,16 @@ API de la app de administración contable.
 ## Rutas  
 ### /operacion
 - /createOperacion 
-- /getOperaciones
 - /updateOperacion  
+- /deleteOperacion
+- /getOperaciones
+- /getBalance
 
 ### /usuario
 - /createUser 
 - /login 
+- /auth
 
 ---
 
-##### Creado en Node.js y MySql, por Daniel F. Palza.
+##### Creado en Node.js, Express.js y MySql, por Daniel F. Palza.
