@@ -6,9 +6,9 @@ const db = require("./database");
 const routes = require("./routes/index");
 
 let corsOptions = {
-  origin: "alkemy-challenge-front.vercel.app",
-  preflightContinue: true,
-  optionsSuccessStatus: 200, // For legacy browser support
+  "origin": "https://alkemy-challenge-front.vercel.app",
+  "preflightContinue": true,
+  "optionsSuccessStatus": 200, // For legacy browser support
 };
 
 //Settings
