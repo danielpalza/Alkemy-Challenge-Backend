@@ -6,9 +6,9 @@ const db = require("./database");
 const routes = require("./routes/index");
 
 let corsOptions = {
-  origin: '*',
-  preflightContinue: true,
-  optionsSuccessStatus: 200, // For legacy browser support
+  "origin": true,
+  "preflightContinue": true,
+  "optionsSuccessStatus": 200, // For legacy browser support
 };
 
 //Settings
